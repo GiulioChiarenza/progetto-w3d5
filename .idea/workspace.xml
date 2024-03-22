@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06cbb659-fc36-4c41-87cf-944565e5f3a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/dao/LoanDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/dao/MagazineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/entities/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/entities/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/entities/Periodicity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/entities/Publications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/giulio/chiarenza/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/giulio/chiarenza/dao/BookDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

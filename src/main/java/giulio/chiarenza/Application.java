@@ -46,6 +46,7 @@ public class Application {
         System.out.println("Ricerca per autore");
         bk.findByAuthor("J.R.R Tolkien");
         System.out.println("Ricerca per titolo o parte di essa");
+        bk.findByTitleOrPart("ece");
         System.out.println("Ricerca degli elementi attualmente in prestito dato un numero di tessera utente");
         System.out.println("Ricerca di tutti i prestiti scaduti e non ancora restituiti");
 

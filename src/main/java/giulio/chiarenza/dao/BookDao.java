@@ -5,6 +5,7 @@ import giulio.chiarenza.exceptions.NotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Query;
+import jakarta.persistence.TypedQuery;
 
 import java.util.List;
 
@@ -72,5 +73,20 @@ public class BookDao {
                 }
             }
             return books.get(0);
+        }
+            public List<Book> findByTitleOrPart(String partialTitle){
+                TypedQuery<Book> query = em.createQuery("SELECT b FROM Book b WHERE LOWER(b.title) LIKE LOWER(:partialTitle)", Book.class);
+                query.setParameter("partialTitle","%" + partialTitle + "%");
+                List<Book> books = query.getResultList();
+                if (books.isEmpty()) {
+                    System.out.println("Nessun libro trovato con il titolo contenente: " + partialTitle);
+                } else {
+                    System.out.println("Libri con titolo contenente " + partialTitle + ":");
+                    for (Book book : books) {
+                        System.out.println(" - " + book.getTitle());
+                    }
+                }
+                return books;
+            }
     }
-}
+
